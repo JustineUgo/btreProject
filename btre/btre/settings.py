@@ -25,6 +25,7 @@ SECRET_KEY = 'ae58=6df=luo85o+vw(0e%)_85gpjn$5(4r5-a%2l0a2#y*(l0'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
+#Domain names
 ALLOWED_HOSTS = []
 
 
