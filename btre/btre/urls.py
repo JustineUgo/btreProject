@@ -3,11 +3,12 @@ from django.contrib import admin
 from django.urls import path, include
 
 
-#btre/
+# www.btre/
+
+
 urlpatterns = [
     
     path('', include('pages.urls')),
     path('admin/', admin.site.urls),
 
 ]
- 
