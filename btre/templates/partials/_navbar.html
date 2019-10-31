@@ -35,7 +35,7 @@
             <a class="nav-link" href="{% url 'about' %}">About</a>
           </li>
 
-          <!-- Hightlight active for about -->
+          <!-- Hightlight active for listings -->
           <li 
             {% if 'listings' in request.path %}
               class="nav-item active mr-3"
@@ -55,8 +55,8 @@
           <li class="nav-item mr-3">
             <a class="nav-link" href="login.html">
               <i class="fas fa-sign-in-alt"></i>
-
-              Login</a>
+              Login
+            </a>
           </li>
         </ul>
       </div>
